@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Add Cards</title>
+</head>
+
+<style>
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#tval{
+    background: none;
+    outline: none;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+</style>
+
+
+<body>
+    
+<h1 style="text-align:center; margin-top:2%;">Product Details</h1>
+
+<button style="width:5%; background-color:white ; box-shadow:0px 4px 12px white;border: none;"><a href="index.html">Home</a></button>
+
+</div>
+
+
+        <div id="AC">
+           
+           <div id="IMG">
+
+            <img src="img1.jpg" alt="CoffeImg" id="ImG">
+            
+           </div>
+           
+           <div id="Details">
+            
+            <h5 id="PNAME"> </h5>
+            <strong id="PPRICE"> </strong>
+
+            
+                <div class="Amount">
+                  
+                  
+
+                    <form action="" method="post">
+
+                        <!-- Qty: <input type="number" name="Qty" id="Qt" value="1" oninput="inputFun(this.value , this.default)">
+                        <br><br>
+                        
+                        Total: <strong id="Tt"></strong><small style="color:gold;"> $ </small>
+                        <br><br> -->
+                       
+
+                        Qty: <input type="text" name="Qty" id="Qt"  oninput="inputFun(this)">
+                        <br><br>
+                        Total <span style="color:gold;">$</span> : <input type="text" name="Total" id="tval">
+                        <br><br>
+                        <button type="submit" name="Submit">Submit</button>
+
+                    </form>
+                  
+                </div>
+
+           
+
+           </div>
+
+
+        </div>
+   
+
+        
+
+<script src="result.js"></script>
+</body>
+</html>
